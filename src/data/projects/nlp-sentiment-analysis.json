@@ -8,7 +8,7 @@
   "coverImage": "projects/nlp-sentiment-analysis/cover.svg",
   "screenshots": ["projects/nlp-sentiment-analysis/screenshot-1.svg"],
   "explanation": [
-    "Placeholder content — replace with your real project details. Explain what text data you worked with, how it was labeled (or how you handled unlabeled data), and why sentiment classification mattered to the business.",
+    "Placeholder content: replace with your real project details. Explain what text data you worked with, how it was labeled (or how you handled unlabeled data), and why sentiment classification mattered to the business.",
     "Describe your modeling choices: which base model you fine-tuned, how you handled class imbalance between positive/negative/neutral reviews, and how you evaluated beyond raw accuracy (e.g. F1 per class, confusion matrix review).",
     "Add a section on what happened after the model: how outputs were used, e.g. feeding a topic model on negative reviews to find recurring complaint themes for the product roadmap."
   ],

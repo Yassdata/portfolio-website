@@ -47,7 +47,7 @@ export default function Home() {
                 Featured projects
               </h2>
               <p className="mt-2 text-slate-600 dark:text-slate-400">
-                A few case studies — code, write-ups, and supporting appendices included.
+                A few case studies, with code, write-ups, and supporting appendices included.
               </p>
             </div>
             <Link

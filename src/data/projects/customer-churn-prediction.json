@@ -8,7 +8,7 @@
   "coverImage": "projects/customer-churn-prediction/cover.svg",
   "screenshots": ["projects/customer-churn-prediction/screenshot-1.svg"],
   "explanation": [
-    "This is placeholder project content — replace it with a real write-up. A churn write-up typically covers: the business problem (why churn matters and what it costs), the data (usage logs, billing history, support tickets), and how you turned that into a model the retention team could actually act on.",
+    "This is placeholder project content. Replace it with a real write-up. A churn write-up typically covers: the business problem (why churn matters and what it costs), the data (usage logs, billing history, support tickets), and how you turned that into a model the retention team could actually act on.",
     "Describe your modeling approach here: feature engineering choices, how you handled class imbalance, which model you picked and why, and how you validated it (e.g. time-based train/test split to avoid leakage).",
     "Close with impact: what changed after the model shipped. Even directional or estimated numbers (\"a pilot of the top 5% highest-risk users showed a X% higher retention rate\") are more convincing than accuracy alone."
   ],

@@ -16,7 +16,7 @@ export default function Contact() {
 
   function mailtoFallback() {
     const subject = encodeURIComponent(`Portfolio contact from ${form.name || 'website visitor'}`)
-    const body = encodeURIComponent(`${form.message}\n\n— ${form.name} (${form.email})`)
+    const body = encodeURIComponent(`${form.message}\n\nFrom ${form.name} (${form.email})`)
     window.location.href = `${site.social.email}?subject=${subject}&body=${body}`
   }
 
@@ -72,7 +72,7 @@ export default function Contact() {
 
         {!hasFormspree && (
           <p className="mt-4 rounded-lg border border-amber-200 bg-amber-50 p-3 text-sm text-amber-800 dark:border-amber-900 dark:bg-amber-500/10 dark:text-amber-300">
-            Contact form isn&apos;t wired up yet — submitting will open your email client instead. Set{' '}
+            Contact form isn&apos;t wired up yet, so submitting will open your email client instead. Set{' '}
             <code className="font-mono">formspreeEndpoint</code> in{' '}
             <code className="font-mono">src/data/site.js</code> (see the{' '}
             <a href="https://formspree.io" target="_blank" rel="noreferrer" className="underline">
@@ -136,7 +136,7 @@ export default function Contact() {
 
           {status === 'success' && (
             <p className="text-sm font-medium text-emerald-600 dark:text-emerald-400">
-              Thanks — your message has been sent.
+              Thanks, your message has been sent.
             </p>
           )}
           {status === 'error' && (

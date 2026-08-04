@@ -8,11 +8,7 @@ export default function Resume() {
         <div>
           <h1 className="text-3xl font-bold text-slate-900 sm:text-4xl dark:text-white">Resume</h1>
           <p className="mt-2 text-slate-600 dark:text-slate-400">
-            Placeholder PDF — replace{' '}
-            <code className="rounded bg-slate-100 px-1.5 py-0.5 font-mono text-sm dark:bg-slate-800">
-              public/resume/resume-placeholder.pdf
-            </code>{' '}
-            with your real resume.
+            View or download my latest resume below.
           </p>
         </div>
         <a

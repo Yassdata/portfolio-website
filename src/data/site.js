@@ -3,7 +3,7 @@ export const site = {
   role: 'Junior Data Scientist',
   tagline: 'Turning analysis into decisions that matter.',
   pitch:
-    "I work at the intersection of business and data. My background combines commercial understanding with technical expertise in data science, which lets me connect what companies do with what their data actually reveals — helping teams see their performance clearly, uncover where things break down, and decide what to do next.",
+    "I work at the intersection of business and data. My background combines commercial understanding with technical expertise in data science, which lets me connect what companies do with what their data actually reveals. That means helping teams see their performance clearly, uncover where things break down, and decide what to do next.",
   location: 'Odense, Denmark',
   email: 'Yassinehouari.dk@gmail.com',
   phone: '+45 28 83 07 19',

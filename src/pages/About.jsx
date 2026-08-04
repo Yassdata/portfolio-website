@@ -3,37 +3,37 @@ import { site } from '../data/site.js'
 
 const timeline = [
   {
-    period: 'Apr 2025 — Present',
+    period: 'Apr 2025 - Present',
     title: 'Junior Data Scientist, Indicata (Autorola Group)',
     description:
       'Design Power BI dashboards that turn automotive market data into actionable insights, and build ETL pipelines with Databricks, PySpark, SQL, and DLT. Use star schema data modeling for scalable reporting, and built a user performance dashboard that replaced manual processes and enabled early churn detection.',
   },
   {
-    period: 'Aug 2025 — Present',
+    period: 'Aug 2025 - Present',
     title: 'Tutor, SDU (Volunteering)',
     description:
       'Organize learning activities within the study program and deliver a hands-on Power BI session introducing dashboarding and data workflows to fellow students.',
   },
   {
-    period: 'May 2022 — Aug 2023',
+    period: 'May 2022 - Aug 2023',
     title: 'Account Manager, Airwallet',
     description:
       'Supported B2B sales and client relationships for SaaS solutions in the French market, including prospecting, proposal development, and representing the company at international fairs.',
   },
   {
-    period: 'Jan 2020 — Jul 2022',
+    period: 'Jan 2020 - Jul 2022',
     title: 'Data Research Analyst, ForeFlight',
     description:
       'Collected, validated, and maintained aviation data from multiple sources, contributing to structured data handling and quality processes that supported reliable downstream analysis.',
   },
   {
-    period: 'Sep 2024 — Graduating June 2026',
+    period: 'Sep 2024 - Graduating June 2026',
     title: 'MSc in Data Science (Economics & Business Administration), Syddansk Universitet (SDU)',
     description:
       'Currently developing an AI-driven forecasting model for a master’s thesis, in collaboration with industry, to predict market dynamics and support better commercial decisions.',
   },
   {
-    period: '2021 — 2023',
+    period: '2021 - 2023',
     title: 'Bachelor in International Sales & Marketing, UCL University College',
     description: 'Odense, Denmark.',
   },
@@ -65,7 +65,7 @@ export default function About() {
               decisions.
             </p>
             <p>
-              For me, technical work is never the end goal — it&apos;s how I create clarity, align
+              For me, technical work is never the end goal. It&apos;s how I create clarity, align
               data with business reality, and help organizations make better strategic choices. Based
               in {site.location}.
             </p>

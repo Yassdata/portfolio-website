@@ -8,9 +8,9 @@
   "coverImage": "projects/covid19-analytics-dashboard/cover.svg",
   "screenshots": ["projects/covid19-analytics-dashboard/screenshot-1.svg"],
   "explanation": [
-    "Placeholder content — swap in your real story. A dashboard write-up should explain who used it, what decisions it informed, and why a dashboard (versus a static report) was the right format.",
+    "Placeholder content: swap in your real story. A dashboard write-up should explain who used it, what decisions it informed, and why a dashboard (versus a static report) was the right format.",
     "Cover the data pipeline briefly: where the data came from, how often it refreshed, and how you handled messy or inconsistent regional reporting.",
-    "Mention any design decisions that mattered — e.g. choosing 7-day rolling averages over raw daily counts to reduce noise, or picking chart types that non-technical stakeholders could read at a glance."
+    "Mention any design decisions that mattered, e.g. choosing 7-day rolling averages over raw daily counts to reduce noise, or picking chart types that non-technical stakeholders could read at a glance."
   ],
   "highlights": [
     "Automated daily data refresh from public health API sources",

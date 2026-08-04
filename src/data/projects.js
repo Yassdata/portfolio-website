@@ -1,4 +1,4 @@
-// Auto-loads every JSON file in ./projects/ — drop a new file in that folder
+// Auto-loads every JSON file in ./projects/. Drop a new file in that folder
 // (see README "Adding a new project") and it appears here automatically.
 const modules = import.meta.glob('./projects/*.json', { eager: true })
 

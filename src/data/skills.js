@@ -1,4 +1,4 @@
-// Add, remove, or regroup skills freely — the Skills page renders whatever is here.
+// Add, remove, or regroup skills freely. The Skills page renders whatever is here.
 export const skillGroups = [
   {
     category: 'Languages & Tools',

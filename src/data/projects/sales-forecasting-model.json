@@ -8,9 +8,9 @@
   "coverImage": "projects/sales-forecasting-model/cover.svg",
   "screenshots": ["projects/sales-forecasting-model/screenshot-1.svg"],
   "explanation": [
-    "Placeholder content — replace with your real write-up. A forecasting project write-up should cover the seasonality and trends in the data, how you incorporated known events (holidays, promotions), and how forecast accuracy was measured.",
+    "Placeholder content: replace with your real write-up. A forecasting project write-up should cover the seasonality and trends in the data, how you incorporated known events (holidays, promotions), and how forecast accuracy was measured.",
     "Explain the tradeoffs you made: for example, why a classical time-series model (like Prophet) was chosen over a more complex ML approach given the data volume and need for interpretability by non-technical stakeholders.",
-    "Wrap up with how the forecasts were used operationally — e.g. feeding into inventory or staffing decisions — and how you tracked forecast error over time."
+    "Wrap up with how the forecasts were used operationally, e.g. feeding into inventory or staffing decisions, and how you tracked forecast error over time."
   ],
   "highlights": [
     "Modeled holiday and promotional effects explicitly rather than relying on the model to infer them",
