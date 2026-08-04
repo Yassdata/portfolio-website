@@ -1,23 +1,19 @@
 // Add, remove, or regroup skills freely — the Skills page renders whatever is here.
 export const skillGroups = [
   {
-    category: 'Languages',
-    items: ['Python', 'SQL', 'R', 'JavaScript'],
+    category: 'Languages & Tools',
+    items: ['Python', 'SQL', 'R', 'PySpark', 'Databricks'],
   },
   {
-    category: 'Machine Learning',
-    items: ['scikit-learn', 'XGBoost', 'PyTorch', 'TensorFlow', 'Statsmodels'],
+    category: 'BI & Visualization',
+    items: ['Power BI', 'DAX', 'Excel'],
   },
   {
-    category: 'Data & Pipelines',
-    items: ['pandas', 'NumPy', 'Apache Spark', 'Airflow', 'dbt'],
+    category: 'Data & Analytics',
+    items: ['ETL/ELT Pipelines', 'Data Modeling', 'Data Analysis', 'AI/ML'],
   },
   {
-    category: 'Visualization & BI',
-    items: ['Matplotlib', 'Plotly', 'Tableau', 'Power BI', 'Streamlit'],
-  },
-  {
-    category: 'Infrastructure',
-    items: ['Docker', 'AWS', 'Git', 'PostgreSQL', 'REST APIs'],
+    category: 'Business & Analytical Skills',
+    items: ['Data-Driven Decision Making', 'Performance Analysis', 'Stakeholder Communication'],
   },
 ]

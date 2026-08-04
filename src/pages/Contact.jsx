@@ -55,6 +55,18 @@ export default function Contact() {
           <a href={site.social.email} className="font-medium text-primary-600 dark:text-primary-400">
             {site.email}
           </a>
+          {site.phone && (
+            <>
+              {' '}
+              or call{' '}
+              <a
+                href={`tel:${site.phone.replace(/\s+/g, '')}`}
+                className="font-medium text-primary-600 dark:text-primary-400"
+              >
+                {site.phone}
+              </a>
+            </>
+          )}
           .
         </p>
 

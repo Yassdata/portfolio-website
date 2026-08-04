@@ -1,18 +1,17 @@
-// Central place for placeholder identity/contact info used across the site.
-// Replace these values with your real details.
 export const site = {
-  name: 'Jordan Rivera',
-  role: 'Data Scientist & Analytics Engineer',
-  tagline: 'Turning messy data into decisions people actually trust.',
+  name: 'Yassine Houari',
+  role: 'Junior Data Scientist',
+  tagline: 'Turning analysis into decisions that matter.',
   pitch:
-    "I'm a data scientist who likes projects that end in a decision, not just a chart. My focus is machine learning, forecasting, and building analytics that non-technical teams can actually use.",
-  location: 'Copenhagen, Denmark',
-  email: 'jordan.rivera@example.com',
-  resumeFile: `${import.meta.env.BASE_URL}resume/resume-placeholder.pdf`,
+    "I work at the intersection of business and data. My background combines commercial understanding with technical expertise in data science, which lets me connect what companies do with what their data actually reveals — helping teams see their performance clearly, uncover where things break down, and decide what to do next.",
+  location: 'Odense, Denmark',
+  email: 'Yassinehouari.dk@gmail.com',
+  phone: '+45 28 83 07 19',
+  resumeFile: `${import.meta.env.BASE_URL}resume/Yassine_Houari_Resume.pdf`,
   social: {
-    github: 'https://github.com/your-username',
-    linkedin: 'https://linkedin.com/in/your-username',
-    email: 'mailto:jordan.rivera@example.com',
+    github: 'https://github.com/Yassdata',
+    linkedin: 'https://www.linkedin.com/in/yassine-houari',
+    email: 'mailto:Yassinehouari.dk@gmail.com',
   },
   // Set to a real Formspree endpoint (https://formspree.io) to make the contact form work.
   // Example: 'https://formspree.io/f/abcdwxyz'
