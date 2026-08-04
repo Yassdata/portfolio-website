@@ -1,0 +1,33 @@
+{
+  "slug": "ev-pricing-investigation",
+  "title": "High-Mileage EV Overpricing — Root-Cause Investigation",
+  "summary": "A pricing engine was systematically overpricing high-mileage EVs. This case study traces the issue from a first data pass to the exact line of buggy code, then designs a monitoring system to catch it automatically next time.",
+  "date": "2026-07-30",
+  "featured": true,
+  "tags": ["Python", "Pandas", "Root-Cause Analysis", "Anomaly Detection", "Business Communication"],
+  "coverImage": "projects/ev-pricing-investigation/cover.png",
+  "screenshots": [
+    "projects/ev-pricing-investigation/screenshot-mileage-band.png",
+    "projects/ev-pricing-investigation/screenshot-make-model.png"
+  ],
+  "explanation": [
+    "A pricing engine was flagged for overpricing high-mileage EVs — cases where the guaranteed price came in well above what the car actually sold for. This case study (built on a synthetic dataset, structured the way I'd approach a real production pricing-integrity investigation) walks through confirming the problem, narrowing down its source, finding the actual bug, and designing a way to catch it automatically next time.",
+    "Confirming the problem meant ruling out noise first. Segmenting by fuel type showed EVs alone carried a 6,655 DKK average spread versus -300 to 400 DKK for every other fuel type, and splitting EVs by mileage narrowed it further to high-mileage EVs specifically (13,857 DKK average spread vs -67 DKK for low-mileage EVs). From there, comparing the platform's automated \"robot\" pricing against human analyst pricing on the exact same high-mileage EVs isolated the actual source: the robot was off by 30,167 DKK per car — nearly 19x worse than analysts — and responsible for 93% of the total leakage from just 6 cars.",
+    "Reading the pricing script explained why. A flat 24,000 DKK (plus 14,000 DKK for Tesla or Polestar) gets added to every EV regardless of mileage, while the only correction is a small 0.18 DKK/km deduction above 80,000 km — so the higher the mileage, the further the price drifts from reality. A second, unrelated bug turned up along the way: the power penalty compares kilowatts against a horsepower threshold, silently under-penalizing high-power EVs.",
+    "The write-up closes with a monitoring design, not just a diagnosis: a weekly anomaly-detection function that builds rolling, per-segment control limits from each segment's own history — while explicitly excluding any week already flagged as anomalous, since otherwise a lasting bug quietly gets absorbed into its own baseline and the alerts go silent exactly when they're needed most."
+  ],
+  "highlights": [
+    "Traced a ~194,000 DKK leakage on high-mileage EVs to one specific bug in the pricing script's mileage correction logic",
+    "Isolated the cause by comparing robot vs. analyst pricing on identical cars — found the automated pricing was 19x less accurate",
+    "Designed a production-style monitoring function with per-segment control limits and a flagged-week exclusion mechanism, so a lasting problem can't quietly become its own new normal",
+    "Communicated findings as a structured business memo — problem definition, method and reasoning per step, root cause, and an explicit limitations/open-questions section"
+  ],
+  "codeFile": "projects/ev-pricing-investigation/analysis.ipynb",
+  "codeFileLabel": "analysis.ipynb",
+  "appendixFile": "projects/ev-pricing-investigation/appendix.pdf",
+  "appendixLabel": "Limitations & open questions (PDF)",
+  "extraFiles": [
+    { "label": "Investigation memo (PDF)", "path": "projects/ev-pricing-investigation/memo.pdf" },
+    { "label": "Sample dataset (CSV)", "path": "projects/ev-pricing-investigation/price_engine_requests.csv" }
+  ]
+}

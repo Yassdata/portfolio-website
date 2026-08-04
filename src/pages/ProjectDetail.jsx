@@ -124,6 +124,17 @@ export default function ProjectDetail() {
                   <span aria-hidden="true">↓</span>
                 </a>
               )}
+              {project.extraFiles?.map((file) => (
+                <a
+                  key={file.path}
+                  href={`${base}${file.path}`}
+                  download
+                  className="flex items-center justify-between rounded-lg border border-slate-200 px-4 py-3 text-sm font-medium text-slate-700 transition-colors hover:border-primary-300 hover:bg-primary-50 dark:border-slate-700 dark:text-slate-300 dark:hover:border-primary-700 dark:hover:bg-primary-500/10"
+                >
+                  {file.label}
+                  <span aria-hidden="true">↓</span>
+                </a>
+              ))}
             </div>
           </div>
         </aside>
