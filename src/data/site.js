@@ -15,5 +15,5 @@ export const site = {
   },
   // Set to a real Formspree endpoint (https://formspree.io) to make the contact form work.
   // Example: 'https://formspree.io/f/abcdwxyz'
-  formspreeEndpoint: '',
+  formspreeEndpoint: 'https://formspree.io/f/maewweyj',
 }
