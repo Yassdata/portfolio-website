@@ -1,0 +1,25 @@
+{
+  "slug": "covid19-analytics-dashboard",
+  "title": "COVID-19 Regional Analytics Dashboard",
+  "summary": "A Streamlit dashboard tracking case trends, hospitalization rates, and vaccination progress across regions in near real time.",
+  "date": "2025-11-02",
+  "featured": true,
+  "tags": ["Python", "Streamlit", "Plotly", "Pandas"],
+  "coverImage": "projects/covid19-analytics-dashboard/cover.svg",
+  "screenshots": ["projects/covid19-analytics-dashboard/screenshot-1.svg"],
+  "explanation": [
+    "Placeholder content — swap in your real story. A dashboard write-up should explain who used it, what decisions it informed, and why a dashboard (versus a static report) was the right format.",
+    "Cover the data pipeline briefly: where the data came from, how often it refreshed, and how you handled messy or inconsistent regional reporting.",
+    "Mention any design decisions that mattered — e.g. choosing 7-day rolling averages over raw daily counts to reduce noise, or picking chart types that non-technical stakeholders could read at a glance."
+  ],
+  "highlights": [
+    "Automated daily data refresh from public health API sources",
+    "7-day rolling averages used throughout to smooth reporting noise",
+    "Deployed and shared with a non-technical audience via a public dashboard link"
+  ],
+  "githubUrl": "https://github.com/your-username/covid19-analytics-dashboard",
+  "codeFile": "projects/covid19-analytics-dashboard/script.py",
+  "codeFileLabel": "dashboard_app.py",
+  "appendixFile": "projects/covid19-analytics-dashboard/appendix.pdf",
+  "appendixLabel": "Methodology notes (PDF)"
+}

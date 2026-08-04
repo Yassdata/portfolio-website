@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <g opacity="0.15" stroke="white" stroke-width="2" fill="none">
+    <polyline points="80,470 260,380 420,430 600,300 780,340 960,220 1120,260" />
+    <circle cx="260" cy="380" r="6" fill="white" stroke="none" />
+    <circle cx="600" cy="300" r="6" fill="white" stroke="none" />
+    <circle cx="960" cy="220" r="6" fill="white" stroke="none" />
+  </g>
+  <text x="80" y="290" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="700" fill="white">Customer Churn Prediction</text>
+  <text x="80" y="340" font-family="Inter, system-ui, sans-serif" font-size="24" fill="rgba(255,255,255,0.85)">Placeholder cover image — replace with a real screenshot</text>
+</svg>

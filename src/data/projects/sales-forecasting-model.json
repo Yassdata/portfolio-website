@@ -1,0 +1,25 @@
+{
+  "slug": "sales-forecasting-model",
+  "title": "Retail Sales Forecasting",
+  "summary": "A Prophet-based time series model forecasting weekly store-level sales to support inventory and staffing decisions.",
+  "date": "2025-05-14",
+  "featured": false,
+  "tags": ["Python", "Prophet", "Time Series", "Pandas"],
+  "coverImage": "projects/sales-forecasting-model/cover.svg",
+  "screenshots": ["projects/sales-forecasting-model/screenshot-1.svg"],
+  "explanation": [
+    "Placeholder content — replace with your real write-up. A forecasting project write-up should cover the seasonality and trends in the data, how you incorporated known events (holidays, promotions), and how forecast accuracy was measured.",
+    "Explain the tradeoffs you made: for example, why a classical time-series model (like Prophet) was chosen over a more complex ML approach given the data volume and need for interpretability by non-technical stakeholders.",
+    "Wrap up with how the forecasts were used operationally — e.g. feeding into inventory or staffing decisions — and how you tracked forecast error over time."
+  ],
+  "highlights": [
+    "Modeled holiday and promotional effects explicitly rather than relying on the model to infer them",
+    "Backtested on a rolling-origin basis to get a realistic estimate of forecast error",
+    "Forecast error (MAPE) tracked weekly against actuals to catch model drift early"
+  ],
+  "githubUrl": "https://github.com/your-username/sales-forecasting-model",
+  "codeFile": "projects/sales-forecasting-model/script.py",
+  "codeFileLabel": "forecast_model.py",
+  "appendixFile": "projects/sales-forecasting-model/appendix.pdf",
+  "appendixLabel": "Forecast accuracy report (PDF)"
+}
