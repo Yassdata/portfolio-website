@@ -1,6 +1,6 @@
 """Retail Sales Forecasting
 
-Placeholder script — replace with your real project code.
+Placeholder script: replace with your real project code.
 """
 
 import pandas as pd

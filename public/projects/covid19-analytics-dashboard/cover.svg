@@ -13,5 +13,5 @@
     <circle cx="960" cy="220" r="6" fill="white" stroke="none" />
   </g>
   <text x="80" y="290" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="700" fill="white">COVID-19 Regional Analytics Dashboard</text>
-  <text x="80" y="340" font-family="Inter, system-ui, sans-serif" font-size="24" fill="rgba(255,255,255,0.85)">Placeholder cover image — replace with a real screenshot</text>
+  <text x="80" y="340" font-family="Inter, system-ui, sans-serif" font-size="24" fill="rgba(255,255,255,0.85)">Placeholder cover image: replace with a real screenshot</text>
 </svg>
